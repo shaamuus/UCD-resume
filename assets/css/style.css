@@ -13,12 +13,24 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-skills {
+    background-color: #ffffff;
+}
+
 .bg-color-work-history {
     background-color: #9b59b6;
 }
 
 .bg-color-contact {
     background-color: #fff;
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
 }
 
 .ui-menu-color-home {
@@ -35,6 +47,14 @@
 
 .ui-menu-color-download {
     background-color: #525252;
+}
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
 }
 
 /*--------------------------------------------------- Special paddings/margins/text */
@@ -64,9 +84,9 @@ h4 {
 }
 
 .section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
+display: table-cell;
+padding: 0 30px 30px;
+float: none;
 }
 
 .history-heading,
@@ -249,6 +269,7 @@ footer {
 }
 
 .personal-info-item .key {
+    display: inline-block;
     width: 30%;
     margin-right: 21px;
     padding-top: 2px;
@@ -260,6 +281,7 @@ footer {
 }
 
 .personal-info-item .value {
+    display: inline-block;
     position: relative;
     width: 60%;
 }
@@ -351,6 +373,11 @@ button[type= "submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #e84610
+}
+
+/*--------------------------------------------------- Map */
+div#map {
+    min-height: 360px;
 }
 
 /*--------------------------------------------------- Media Queries*/
