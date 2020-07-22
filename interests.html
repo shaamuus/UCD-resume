@@ -182,5 +182,20 @@
             </div>
         </div>
     </footer>
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 3,
+                center: {
+                    lat: 51.409860,
+                    lng: -2.542751
+                }
+            });
+        }
+    </script>
+    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATaJF65UFLeZ2qiK7Tjnezyfc6BtiZGVg&callback=initMap">
+    </script>
 </body>
 </html>
